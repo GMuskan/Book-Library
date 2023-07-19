@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bookcard-row {
+  display: flex;
+}
+
+.bookCard {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 250px;
+}
+
+.bookCard img {
+  width: 100px;
+  height: 100px;
+}
+
+.bookcard-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
